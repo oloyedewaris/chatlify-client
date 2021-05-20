@@ -1,0 +1,116 @@
+.all {
+  font-size: 17px;
+}
+.time {
+  font-size: 12px;
+}
+
+.messages {
+  padding: 1% 0;
+  overflow: auto;
+  flex: auto;
+}
+
+.userAdmin {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+.userSend {
+  color: rgb(155, 137, 137);
+  font-style: italic;
+}
+.userRecieve {
+  color: rgb(155, 137, 137);
+  font-style: italic;
+}
+
+.adminMessage {
+  background-color: grey;
+  color: rgb(255, 248, 248);
+  text-align: center;
+  max-width: 80%;
+  margin: 5px;
+  padding: 0 15px;
+  border-radius: 5px;
+  word-wrap: break-word;
+}
+
+.adminTime {
+  float: right;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.adminUser {
+  padding: 10px;
+}
+
+.messageBox {
+  background: #c6c3c3;
+  border-radius: 5px;
+  padding: 0 15px;
+  color: white;
+  word-wrap: break-word;
+  display: inline-block;
+  max-width: 70%;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  word-wrap: break-word;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #2979ff;
+}
+
+.backgroundLight {
+  background: #dfdada;
+}

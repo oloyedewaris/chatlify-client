@@ -1,0 +1,59 @@
+.infoBar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #2979ff;
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  color: white;
+}
+
+.rightInnerContainer {
+  margin-top: 15px;
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.onlineIcon {
+  margin-right: 5%;
+  position: relative;
+}
+
+.collapseList {
+  max-height: 70px;
+  padding: 5px auto;
+  margin: 5px auto;
+  color: white;
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.collapse {
+  padding: 0;
+  max-height: 90px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  align-items: flex-start;
+}
+
+.members {
+  height: 15px;
+  margin: 15px auto;
+  padding: 0 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.roomname {
+  word-wrap: break-word;
+}
