@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import Chat from "./components/Chat/Chat";
-import Join from "./components/Join/Join";
+import Chat from "./screens/Chat/Chat";
+import Join from "./screens/Join/Join";
 
 const App = () => {
   const [username, setusername] = useState("");

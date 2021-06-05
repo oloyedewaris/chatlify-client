@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import "./Chat.css";
-import Input from "./sections/Input/Input";
-import InfoBar from "./sections/InfoBar/InfoBar";
-import Messages from "./sections/Messages/Messages";
+import Input from "../../components/Input/Input";
+import InfoBar from "../../components/TopBar/InfoBar";
+import Messages from "../../components/Messages/Messages";
 
 let socket;
 function Chat({ username, room, setisAuthenticated }) {
@@ -11,8 +11,8 @@ function Chat({ username, room, setisAuthenticated }) {
   const [messages, setmessages] = useState([]);
   const [roomInfo, setroomInfo] = useState({});
 
-  // let ENDPOINT = "https://waris-react-chat-app-backend.herokuapp.com/";
-  let ENDPOINT = "http://localhost:5000/";
+  let ENDPOINT = "https://waris-react-chat-app-backend.herokuapp.com/";
+  // let ENDPOINT = "http://localhost:5000/";
   const disconnect = () => {
     socket.emit("disconnect");
     socket.off();
