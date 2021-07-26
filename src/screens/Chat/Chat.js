@@ -11,8 +11,8 @@ function Chat({ username, room, setisAuthenticated }) {
   const [messages, setmessages] = useState([]);
   const [roomInfo, setroomInfo] = useState({});
 
-  // let ENDPOINT = "https://waris-react-chat-app-backend.herokuapp.com/";
-  let ENDPOINT = "http://localhost:5000/";
+  let ENDPOINT = "https://waris-chatlify-backend.netlify.app";
+  // let ENDPOINT = "http://localhost:5000/";
   const disconnect = () => {
     socket.emit("disconnect");
     socket.off();
